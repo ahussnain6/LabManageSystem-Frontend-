@@ -1,0 +1,53 @@
+.table-1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid blueviolet; */
+    overflow-y: scroll;
+    overflow-x: scroll;
+    scrollbar-width: thin;}
+    .click{
+        cursor: pointer;
+    }
+.table-2{
+    width: 99.9%;
+    margin-top: .5vh;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+.t-head{
+    border: 2px solid black;}
+th{
+    padding: 2vh 2vh !important;
+    background-color: black;
+    text-align: center;
+    font-size: 2.5vh;
+    color: white;
+    border:2px solid black;
+    font-family: "Reddit Sans", sans-serif;}
+td{
+    padding: 2vh 3vh;
+    font-size: 1.1rem;
+    font-family: "Reddit Sans", sans-serif;
+    border-right: .5px solid #ccc;
+    border-bottom: .5px solid #ccc;
+    text-align: center;}
+    @media screen and (width < 900px){
+        th{
+            padding: 1.9vh 1vh !important;
+            background-color: black;
+            text-align: center;
+            font-size: 2vh;
+            color: white;
+            border:2px solid black;
+            font-family: "Reddit Sans", sans-serif;}
+        td{
+            padding: 2vh 1vh;
+            font-size: 2.4vw;
+            font-family: "Reddit Sans", sans-serif;
+            border-right: .5px solid #ccc;
+            border-bottom: .5px solid #ccc;
+            text-align: center;}   
+    }

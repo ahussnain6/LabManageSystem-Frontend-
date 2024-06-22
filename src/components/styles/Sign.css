@@ -1,0 +1,186 @@
+.sign-1{
+  /* border: 3px solid red; */
+  width: 99.8%;
+  height: 89vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.h-11{
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 250;
+    cursor: pointer;
+    /* color: white; */
+}
+.sign-11{
+    width: 36.8%;
+    height: 68vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   font-family: "Kanit", sans-serif;
+    border: .01px solid rgba(0,0,0,0.5);
+    /* background: linear-gradient(to right,white,green); */
+    /* background: rgba(0, 0, 0, 0.5); */
+    /* border-radius: 2rem; */
+}
+.sign-10{
+    /* border: 2px solid red; */
+    width: 56.8%;
+    height: 68vh;
+}
+.img-side{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.h-00{
+    font-family: "Kanit", sans-serif;
+    margin-top: -1vh;
+}
+.form-11{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+}
+.form-11 .btn{
+    margin-top: 2vh;
+    padding: 0vh 6vh;
+    background-color: black;
+    color: white;
+    height: 5.5vh;
+    width: 29vw;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    font-weight: 450;
+    letter-spacing: .1vh;
+}
+.red{
+    margin-top: .6vh;
+    /* margin: 0; */
+    margin-bottom: 0vh;
+    height: 5vh;
+    width: 29vw;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 350;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    border-radius: .5rem;
+    padding: .5vh 0vh;
+}
+.blu{
+    font-weight: 400;
+    color: rgb(108, 186, 216);
+}
+.input-11{
+    height: 3.5vh;
+    width: 27vw;
+    border-radius: 1vh;
+    margin-top: 2vh;
+    font-size: 1.3rem;
+    font-family: "Kanit", sans-serif;
+    border: 1px solid lightgray;
+    padding: 1.2vh 1vw;
+    text-align: left !important;
+}
+.sign-11 .center{
+    font-size: 2rem;
+    /* margin-bottom: 7.5vh; */
+    text-align: center;
+    /* color: white; */
+    /* margin-top: 3vh; */
+    padding-top: 5vh;
+  margin-bottom: 0vh !important;
+}
+.h-10{
+    /* margin-top: 1rem; */
+    text-align: center;
+    font-size: 1.6rem;
+    letter-spacing: .2vh;
+    /* color: white; */
+    font-family: "Kanit", sans-serif;
+
+}
+@media screen and (width < 840px){
+    .h-10{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: .2vh;
+        color: black;
+        font-family: "Kanit", sans-serif;
+    
+    }
+    .sign-1{
+background: url("https://images.pexels.com/photos/3910065/pexels-photo-3910065.jpeg?auto=compress&cs=tinysrgb&w=600");
+background-size:100% 100%;
+background-repeat: no-repeat;
+        /* border: 1px solid green; */
+        width: 99.8%;
+        height: 89vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .sign-11{
+         background:transparent;
+        filter: blur(160%);
+          width: 91%;
+          height: 67vh;
+          /* background: rgba(0, 0, 0, 0.5); */
+/* border: none; */
+    /* border-radius: 1.2rem; */
+          border: 1px solid grey;
+      }
+      .sign-10{
+        display: none;
+      }
+      .form-11 .btn{
+        margin-top: 1vh;
+        padding: 1vh 6vh;
+        background-color: black;
+        color: white;
+        height: 6vh;
+        width: 67vw;
+        border: none;
+        border-radius: .6rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        letter-spacing: .1vh;
+    }
+    .red{
+        height: 4vh;
+        width: 67vw;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 350;
+        cursor: pointer;
+        background-color: red;
+        color: white;
+        border-radius: .5rem;
+        padding: .5vh 0vh;
+    }
+  
+    .input-11{
+        height: 3vh;
+        width: 65vw;
+        border-radius: 1vh;
+        margin-top: 2vh;
+        font-size: 1.3rem;
+        font-family: "Kanit", sans-serif;
+        border: 1px solid lightgray;
+        padding: 1.2vh 2vw;
+        text-align: left !important;
+    }
+}

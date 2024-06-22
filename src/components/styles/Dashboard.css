@@ -1,0 +1,449 @@
+.dash-11 {
+  /* border: 4px solid purple; */
+  background-color: white;
+  width: 100%;
+  height: 100% !important;
+}
+.box-87 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 57%;
+  width: 97.5%;
+  gap: 2vh;
+  padding: 1vh;
+}
+.center-1{
+  margin: 15% !important;
+}
+.chart-11 {
+  z-index: 1000;
+  border: 1px solid darkgrey;
+  background-image:linear-gradient(to right,darkgrey,darkblue);
+  height: 90%;
+  max-width: 32%;
+  min-width: 32%;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.chart-22 {
+  /* border: 3px solid yellowgreen; */
+  height: 95%;
+  width: 65%;
+  /* background-image:linear-gradient(to right,darkgrey,darkblue); */
+
+  background-color: white;
+}
+.chart-33 {
+  /* border: 3px solid yellowgreen; */
+  height: 95%;
+  width: 35%;
+  /* background-image:linear-gradient(to right,darkgrey,darkblue); */
+
+  background-color: white;
+}
+.part-7{
+  padding-left: 1vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* gap: -5vh; */
+  width: 75%;
+  height: 100%;
+/* background-color: aqua; */
+}
+.icon{
+  margin-top: -13vh;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  height: 33px;
+  width: 33px;
+}
+.small{
+  font-size: .6rem;
+}
+.part-8{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 25%;
+  height: 100%;
+}
+.box-86 {
+  padding: 1vh;
+  /* background-color: #e1ebee; */
+  height: 35%;
+  width: 97.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1vw;}
+.chart-4 {
+  height: 83% !important;
+  width: 100% !important;
+  /* background: linear-gradient(to right, green, black); */
+  color: white;}
+.chart-1 {
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  /* background: linear-gradient(to right, green, black); */
+  height: 83% !important;
+  color: white;
+  padding-left: .2rem;
+  width: 100% !important;
+}
+ .head-l {
+  text-align: center;
+  font-size: 1.8rem;
+}
+/* .part-7 .head-l4{ */
+  /* border: 1px solid black;} */
+.mid-1{
+ font-size: 1.2rem;}
+/* .part-7 .head-l5{
+  /* margin-top: -13vh;   */
+  /* border: 1px solid red} */ 
+.part-7 .head-16{
+  /* border: 1px solid red; */
+  margin-top: -1vh;}
+.font {
+  font-family: "Reddit Sans", sans-serif;}
+.head-r {
+  margin-top: 0vh;
+  text-align: center;
+  font-size: 1.3rem;}
+.chart-2 {
+  margin-top: 0vh;
+  border-radius: 0.9rem;
+  width: 100% !important;
+  height: 88% !important;
+  background-color: white;
+}
+.chart-5 {
+  background-color: white;
+  border-radius: 1rem;
+  width: 100% !important;
+  height: 90% !important;}
+.grey {
+  margin-left: 1.5vh;
+  /* text-align: center; */
+  margin-bottom: 0.9vh !important;  color: gray;}
+@media screen and (width < 1150px) {
+  .box-86 {
+    /* padding-top: 10vh; */
+    height: 44%;
+    width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2vh;
+  }
+  .box-87 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 98%;
+  }
+  .chart-4 {
+    height: 83% !important;
+    width: 100% !important;
+    /* background: linear-gradient(to right, green, black); */
+    color: white;
+  }
+  .chart-1 {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    /* background: linear-gradient(to right, green, black); */
+    height: 83% !important;
+    color: white;
+    padding-left: .2rem;
+    width: 100% !important;
+  }
+  .chart-11 {
+    z-index: 1000;
+    /* border: 3px solid purple; */
+    background-color: white;
+    height: 90%;
+    max-width: 30%;
+    min-width: 30%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  .chart-22 {
+    /* border: 3px solid yellowgreen; */
+    height: 98%;
+    width: 65%;
+    background-color: white;
+  }
+  .chart-33 {
+    /* border: 3px solid yellowgreen; */
+    height: 98%;
+    width: 35%;
+    background-color: white;
+  }
+  .chart-2 {
+    margin-top: 0vh;
+    border-radius: 0.9rem;
+    width: 100% !important;
+    height: 88% !important;
+    background-color: white;
+  }
+  .chart-5 {
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important; }}
+@media screen and (600px < width < 800px) {
+  .dash-11{
+    margin-bottom: 10vh;
+    margin-top: 9vh;
+    width: 100%;
+    height: 199vh !important;}
+  .box-86{
+    padding-top: 20vw;
+    height: 44%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+  }
+  .box-87 {
+    margin-top: 19vh;
+    /* padding-top: 3vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 59%;
+    width: 98%;
+  }
+  
+  .chart-1 {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    /* background: linear-gradient(to right, green, black); */
+    height: 86% !important;
+    color: white;
+    padding-left: .2rem;
+    width: 100% !important;
+  }
+  .chart-11 {
+    z-index: 1000;
+    background-color: white;
+    height: 99%;
+    max-width: 60%;
+    min-width: 60%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  .icon{
+    margin-top: -13vh;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 39px;
+    width: 41px;
+  }
+  .small{
+    font-size: .9rem;
+  }
+  .mid-1{
+    font-size: 1.7rem;}
+  .chart-22 {
+    /* border: 3px solid yellowgreen; */
+    height: 45%;
+    width: 70%;
+    background-color: white;
+  }
+  .chart-33 {
+    /* border: 3px solid yellowgreen; */
+    height: 40%;
+    width: 70%;
+    background-color: white;
+  }
+  .chart-2 {
+    margin-top: 0vh;
+    border-radius: 0.9rem;
+    width: 100% !important;
+    height: 88% !important;
+    background-color: white;
+  }
+  .chart-5 {
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important;
+  }
+}
+@media screen and (500px < width < 615px){
+  .chart-5 {
+    /* margin-left: 6vh !important; */
+    margin-top: 21vh !important;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important;
+  }
+  .box-86{
+    padding-top: 32.5vw !important;
+    display: block;
+    height: 44%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+  }
+  .box-87 {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 59%;
+    width: 98%;
+  }
+}
+@media screen and (width < 420px) and (height < 665px){
+  .box-86{
+    padding-top: 28.5vw !important;
+    display: block;
+    height: 44%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+  }
+  .box-87 {
+    padding-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 59%;
+    width: 98%;
+  }
+  .chart-5 {
+    /* margin-left: 6vh !important; */
+    margin-top: 20vh !important;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important;
+  }
+}
+@media screen and (width <= 600px) {
+  .dash-11 {
+    width: 100%;
+    height: 199vh !important;}
+  .box-86 {
+    padding-top: 14vh;
+    /* border: 3px solid yellow; */
+    height: 44%;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;}
+  .box-87 {
+    padding-top: 9vh;
+    /* border: 3px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 55%;
+    width: 99%;
+  }
+  .chart-11 {
+    z-index: 1000;
+    background-color: white;
+    height: 99%;
+    max-width: 60%;
+    min-width: 60%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  .icon{
+    margin-top: -13vh;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    height: 39px;
+    width: 41px;}
+  .small{font-size: .7rem;}
+  .mid-1{
+    font-size: 1.6rem;}
+  .chart-4 {
+    height: 83% !important;
+    width: 100% !important;
+    /* background: linear-gradient(to right, green, black); */
+    color: white;
+  }
+  .chart-1 {
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    /* background: linear-gradient(to right, green, black); */
+    height: 83% !important;
+    color: white;
+    padding-left: .2rem;
+    width: 100% !important;
+  }
+  .chart-11 {
+    z-index: 1000;
+    /* border: 3px solid purple; */
+    background-color: white;
+    height: 90%;
+    max-width: 90%;
+    min-width: 90%;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+  .chart-22 {
+    /* border: 3px solid yellowgreen; */
+    height: 34%;
+    width: 90%;
+    background-color: white;
+  }
+  .chart-33 {
+    /* border: 3px solid yellowgreen; */
+    height: 34%;
+    width: 90%;
+    background-color: white;}
+  .part-7{
+    padding-left: 2vh;
+  }
+  .chart-2 {
+    /* border: 2px solid black; */
+    margin-top: 0vh;
+    margin-left: -2vh;
+    border-radius: 0.9rem;
+    width: 100% !important;
+    height: 88% !important;
+    background-color: white;
+  }
+  .chart-5 {
+    /* border: 2px solid red; */
+    margin-top: 15vh;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important;
+  }
+}
+@media screen and (width < 410px){
+  .chart-5 {
+    margin-left: -2.5vh !important;
+    margin-top: 5vh;
+    background-color: white;
+    border-radius: 1rem;
+    width: 100% !important;
+    height: 90% !important;
+  }
+}

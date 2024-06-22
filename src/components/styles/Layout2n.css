@@ -1,0 +1,54 @@
+.center{
+text-align: center;
+    font-family: "Montserrat", sans-serif;} 
+.lay-8e{
+margin: 10vh 0vh 10vh;
+}
+.center-19{
+    /* border: 2px solid purple; */
+    /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color:rgb(5,5,99) ;
+  font-family: "Montserrat", sans-serif; 
+  height: 19.5%;
+  width: 100%;
+  margin-top: -1vh;  
+  border-radius: 0rem 0rem .9rem .9rem;
+  color: white;
+}
+  h1 {
+    margin: .8rem auto 3rem;
+  }
+  .product--image {
+    width: 100%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    height: 81%;
+    /* border: 2px solid pink; */
+    object-fit: cover;}
+  .card {
+    border-radius: 1rem;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+    max-width: 380px;
+    height: 50vh;
+    margin: auto .7rem;
+    text-align: center;
+    font-family: arial;
+    border: .2px solid black;
+  }
+  @media screen and (width < 430px){
+    .card {
+      border-radius: 1rem;
+      box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+      max-width: 360px;
+      height: 50vh;
+      /* border: 2px solid yellow; */
+      margin: auto 1.5rem;
+      text-align: center;
+      font-family: arial;
+      /* border: 2px solid gray; */
+    } 
+  }
+  
